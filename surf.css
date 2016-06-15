@@ -1,4 +1,13 @@
 .footer {
   display: inline-flex;
+  height: 330px;
+  width: 330px;
+}
+footer img {
+  height: 330px;
+  width: 330px;
+}
 
+.popular {
+  display: inline-flex;
 }
