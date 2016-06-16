@@ -20,6 +20,15 @@ header {
   color: white;
   margin-left: 13rem;
   margin-top: 1.7rem;
+
+}
+.logo i {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
 }
 header h1 {
   font-family: 'Oswald';
