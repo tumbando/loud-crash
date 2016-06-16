@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+
 .header {
   background-image: url("http://lorempixel.com/image_output/nature-q-g-1920-1920-5.jpg");
   overflow: hidden;
@@ -5,8 +16,9 @@
   height: 36rem;
 }
 .header h1 {
-  font-family: 'Oswald' 'impact';
+  font-family: 'Oswald';
   font-size: 6.5rem;
+  letter-spacing: -0.2rem;
   height: 100%;
   margin: 0 auto;
   color: white;
