@@ -17,8 +17,8 @@
 }
 .header h1 {
   font-family: 'Oswald';
-  font-size: 6.5rem;
-  letter-spacing: -0.2rem;
+  font-size: 6.04rem;
+  letter-spacing: 1rem;
   height: 100%;
   margin: 0 auto;
   color: white;
@@ -30,13 +30,13 @@
           justify-content: center;
 }
 .middle {
-  height: 10rem;
+  height: 69rem;
   background-color: pink;
 }
 .middle div {
-  border: 5px solid yellow;
-  height: 10rem;
-  width: 20%;
+  border-bottom: 1px solid gray;
+  height: 100%;
+  width: 100%;
   display: inline-flex;
   margin: 0 auto;
 }
