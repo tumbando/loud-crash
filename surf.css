@@ -18,12 +18,12 @@ header {
 .logo {
   display: inline-block;
   color: white;
-  margin-left: 13rem;
-  margin-top: 1.7rem;
+  margin-left: 12.5rem;
+  margin-top: 1.3rem;
 
 }
 .logo i {
-  font-size: 2rem;
+  font-size: 3.7rem;
   vertical-align: middle;
 }
 .logo a {
@@ -46,7 +46,8 @@ header h1 {
 }
 .topnav {
   float: right;
-  margin-right: 11rem;
+  margin-right: 11.2rem;
+  margin-top: 0.4rem;
 }
 
 .topnav li {
