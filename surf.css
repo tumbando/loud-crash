@@ -15,7 +15,8 @@ header {
   width: 100%;
   height: 36rem;
 }
-header div {
+.logo {
+  display: inline-block;
   color: white;
 }
 header h1 {
@@ -34,6 +35,7 @@ header h1 {
 }
 .topnav {
   float: right;
+  margin-right: 10px;
 }
 
 .topnav li {
