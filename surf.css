@@ -46,12 +46,14 @@ header h1 {
 }
 .topnav {
   float: right;
-  margin-right: 10px;
+  margin-right: 11rem;
 }
 
 .topnav li {
   display: inline;
   color: white;
+  font-size: 1.3rem;
+  letter-spacing: -0.1rem;
 }
 .middle {
   /*height: 69rem;*/
