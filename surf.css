@@ -30,18 +30,18 @@ footer nav li:last-child {
 .header {
   background-image: url("http://lorempixel.com/image_output/nature-q-g-1920-1920-5.jpg");
   overflow: hidden;
-  width: 81.25rem;
+  width: 100%;
   height: 32.7rem;
 }
 
 .popular {
-  width: auto;
+  width: 81.25rem;
 }
 
 .header h1 {
-  font-family: 'open sans', 'sans-serif';
-  font-size: 10rem;
-  height: 525px;
+  font-family: 'Oswald' 'impact';
+  font-size: 5.5rem;
+  height: 32.7rem;
   color: white;
   display: -webkit-flex;
   display:         flex;
