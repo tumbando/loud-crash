@@ -92,11 +92,28 @@ header h4 {
   width: 100%;
   display: inline-flex;
   margin: 0 auto;
+
 }
-.popular {
-  float: left;
+.popular h1 {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
   max-width: 100%;
 }
+.popular div {
+  width: 25%;
+  height: auto;
+  max-width: 25%;
+  float: left;
+}
+
+.popular img {
+  border-style: none;
+  height: auto;
+  width: 100%;
+}
+
 
 /*footer nav li:last-child {
   border-right: 0;
