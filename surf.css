@@ -47,12 +47,12 @@ header div:nth-child(an+b) {
   letter-spacing: -0.17rem;
 }
 header h1 {
-  font-family: 'Oswald';
-  font-size: 6rem;
-  letter-spacing: 1rem;
+  /*font-family: 'OpenSans';*/
+  font-size: 7rem;
+  letter-spacing: -0.5rem;
   height: 25%;
   width: 100%;
-  padding-top: 10rem;
+  padding-top: 8.4rem;
   margin: 0 auto;
   color: white;
   display: -webkit-flex;
@@ -95,13 +95,17 @@ header h4 {
 
 }
 .popular h1 {
+  font-family: 'Oswald';
   text-align: center;
+  font-size: 4.2rem;
   margin: 0 auto;
   display: inline-block;
+  height: 8.2rem;
   width: 100%;
   max-width: 100%;
+  letter-spacing: 0.08rem;
 }
-.popular div {
+.popular div img {
   width: 25%;
   height: auto;
   max-width: 25%;
