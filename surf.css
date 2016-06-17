@@ -46,13 +46,13 @@ header div:nth-child(an+b) {
   font-size: 1.3rem;
   letter-spacing: -0.17rem;
 }
-header h1 {
+.topCaption h1 {
   /*font-family: 'OpenSans';*/
   font-size: 7rem;
   letter-spacing: -0.5rem;
   height: 25%;
   width: 100%;
-  padding-top: 8.4rem;
+  padding-top: 10.4rem;
   margin: 0 auto;
   color: white;
   display: -webkit-flex;
@@ -63,7 +63,7 @@ header h1 {
           justify-content: center;
 }
 
-header h4 {
+.topCaption h4 {
   color: white;
   margin: 0 auto;
   width: 24%;
@@ -109,6 +109,7 @@ header h4 {
   width: 100%;
   max-width: 100%;
   letter-spacing: 0.08rem;
+  padding-top: 2rem;
 }
 .popular div img {
   width: 25%;
