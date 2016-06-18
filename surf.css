@@ -38,6 +38,8 @@ header div:nth-child(an+b) {
 .logo {
   float: left;
   color: white;
+  height: 10%;
+  width: 20%;
   margin-left: 10.3rem;
   padding-top: 0.5rem;
   }
@@ -79,8 +81,8 @@ header div:nth-child(an+b) {
 
 .topnav {
   float: right;
-  margin-right: 11.2rem;
-  margin-top: 0.4rem;
+  margin-right: 20.7%;
+  margin-top: -1.3%;
 }
 
 .topnav li {
