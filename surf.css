@@ -15,7 +15,7 @@
 
 
 header {
-  background-image: url("http://lorempixel.com/image_output/abstract-q-c-1920-1920-10.jpg");
+  background-image: url("images/headerPic.jpg");
   overflow: hidden;
   width: 100%;
   height: 36rem;
@@ -96,12 +96,12 @@ header div:nth-child(an+b) {
 }
 
 .middle {
-  background-color: pink;
+  /*background-color: pink;*/
   height: 69.2rem;
 }
 
 article {
-  background-color: green;
+  /*background-color: green;*/
   height: 100%;
   width: 66.45%;
 }
@@ -131,14 +131,14 @@ article {
   margin-top: 3.4rem;
 }
 .author {
-  background-color: orange;
+  /*background-color: orange;*/
     position: relative;
     top: 14.781rem;
     right: 37rem;
     display: inline;
 }
 .timeStamp {
-  background-color: yellow;
+  /*background-color: yellow;*/
   display: inline-flex;
   position: relative;
   top: 2rem;
@@ -153,19 +153,40 @@ article {
     left: 2.7rem;
     bottom: 6.9rem;
 }
+
+.p2 {
+    position: relative;
+    width: 42rem;
+    left: 11.3rem;
+    bottom: 3.7rem;
+    height: 2rem;
+}
+.p3 {
+    position: relative;
+    height: 5rem;
+    width: 35rem;
+    text-align: center;
+    padding-top: 1.9rem;
+    font-size: 2rem;
+    padding-right: 11rem;
+    letter-spacing: -.1rem;
+    left: 11.7rem;
+    border-left: 1px solid grey;
+}
 .aside {
-  position: relative;
-  height: 69.2rem;
-  width: 30.2rem;
-  background-color: orange;
-  bottom: 69.2rem;
-  left: 59.2rem;
+    position: relative;
+    height: 69.2rem;
+    width: 29.85rem;
+    /* background-color: orange; */
+    bottom: 69.2rem;
+    left: 59.2rem;
 }
 
 .profile {
     background-color: red;
     height: 18.5rem;
-    width: 19.1rem;top: -69.2rem;
+    width: 19.1rem;
+    top: -69.2rem;
     left: 59.2rem;
     position: relative;
 }
@@ -197,14 +218,15 @@ article {
 }
 .popular h1 {
     font-size: 4.3em;
-    margin: auto;
+    margin: 0 auto;
     height: 10.1rem;
-    width: 41rem;
+    width: 100%;
     padding-top: 1.6rem;
-    padding-left: 1.1rem;
+    padding-left: 25.1rem;
     font-family: 'Oswald';
     font-weight: 400;
-  }
+    border-top: 1px solid gray;
+}
 
 /*.pop1 {
   background-image: url("http://www.placecage.com/c/300/307");
@@ -232,10 +254,11 @@ article {
 }
 
 footer {
-  display: inline-flex;
-  height: 6.5rem;
-  width: 100%;
-  background-color: orange;
+    display: inline-flex;
+    height: 6.5rem;
+    width: 100%;
+    background-color: #083452;
+    color: white;
 }
 footer div {
   margin: 0 auto;
