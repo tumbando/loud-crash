@@ -93,18 +93,47 @@ header div:nth-child(an+b) {
   letter-spacing: -0.005rem;
   padding-right: 6%;
 }
+
 .middle {
-  /*height: 69rem;*/
   background-color: pink;
+  height: 69.2rem;
 }
-.middle div {
-  border-bottom: 1px solid gray;
-  height: 69rem;
-  width: 100%;
-  display: inline-flex;
+
+article {
+  background-color: green;
+  height: 100%;
+  width: 66.45%;
+}
+
+.articleTitle {
   margin: 0 auto;
+  font-family: 'Oswald';
+}
+
+.articleTitleTop h1 {
+  font-family: 'Oswald';
+  padding-top: 0rem;
+  font-size: 4.35rem;
+  padding-left: 11.15rem;
+  float: left;
+  margin-top: 3.4rem;
+  letter-spacing: -0.03rem;
+}
+.articleTitleBottom h1 {
+  position: relative;
+  top: -7.9rem;
+  font-family: 'Oswald';
+  padding-top: 0rem;
+  font-size: 4.35rem;
+  padding-left: 11.15rem;
+  float: left;
+  margin-top: 3.4rem;
 
 }
+aside {
+  background-color: blue;
+}
+
 .popular div:nth-child(2){
   height: 21.7rem;
   /*border: 1rem solid yellow;*/
