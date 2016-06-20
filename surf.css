@@ -145,7 +145,14 @@ article {
   left: -27.8rem;
   font-size: 0.9rem;
 }
-
+.p1 {
+    clear: left;
+    position: relative;
+    margin: 0 auto;
+    width: 42rem;
+    left: 2.7rem;
+    bottom: 6.9rem;
+}
 .aside {
   position: relative;
   height: 69.2rem;
