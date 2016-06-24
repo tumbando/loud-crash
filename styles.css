@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+ .header ul {
+   list-style: none;
+   padding-left: 0;
+ }
+i {
+  height: 3rem;
+  width: 3rem;
+}
+
+nav li {
+    font-size: 19px;
+    display: inline;
+}
+
+nav li li {
+    padding-left: 5px;
+    font-family: 'OpenSans';
+    letter-spacing: -0.4px;
+}
+
+
+
+.leftNav {
+    clear: right;
+    padding-left: 148px;
+    font-size: 3rem;
+    margin-top: -.3rem;
+}
+
+
+
+ .rightNav {
+   float: right;
+ }
